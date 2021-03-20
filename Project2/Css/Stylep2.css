@@ -1,0 +1,114 @@
+#nav{
+
+    background-color: orange;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+/* Name: Miguelangel Popoteur
+Date Created: 03/16/2021
+Date modified: 03/18/2021 */
+#nav a{
+display: block;
+font-size: 50px;
+padding: 10px;
+text-decoration: none;
+font-family: sans-serif;
+/* Name: Miguelangel Popoteur
+Date Created: 03/16/2021
+Date modified: 03/18/2021 */
+
+
+}
+a:hover {
+    border-bottom: 1px solid;
+    background: #00fcef;
+  }
+  /* Name: Miguelangel Popoteur
+Date Created: 03/16/2021
+Date modified: 03/18/2021 */
+
+#about{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: navajowhite;
+}
+/* Name: Miguelangel Popoteur
+Date Created: 03/18/2021
+Date modified: 03/18/2021 */
+#about p{
+    font-size: 25px;
+}
+/* Name: Miguelangel Popoteur
+Date Created: 03/18/2021
+Date modified: 03/18/2021 */
+#about h1{
+    font-size: 75px;
+}
+/* Name: Miguelangel Popoteur
+Date Created: 03/18/2021
+Date modified: 03/18/2021 */
+
+#work{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color:gray;
+}
+/* Name: Miguelangel Popoteur
+Date Created: 03/18/2021
+Date modified: 03/18/2021 */
+#project{
+    
+    display: inline-grid;
+    grid-template-columns: repeat(3, 6fr);
+    grid-template-rows: repeat(3, 5vw);
+    grid-gap: 150px;
+    
+}
+/* Name: Miguelangel Popoteur
+Date Created: 03/18/2021
+Date modified: 03/18/2021 */
+#project img{
+    height: 200px;
+}
+/* Name: Miguelangel Popoteur
+Date Created: 03/18/2021
+Date modified: 03/18/2021 */
+
+
+#project p{
+    display: block;
+    font-size: large;
+ 
+
+}
+/* Name: Miguelangel Popoteur
+Date Created: 03/18/2021
+Date modified: 03/18/2021 */
+#Contact{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: maroon;
+    font-size: 50px
+    /* Name: Miguelangel Popoteur
+Date Created: 03/18/2021
+Date modified: 03/18/2021 */
+}
